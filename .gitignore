@@ -4,6 +4,7 @@
 *.a
 *.so
 *.d
+*.pdf
 
 # Binary outputs (match common 42 exercise names)
 # Add your binary names here if needed
