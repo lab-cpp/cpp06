@@ -39,6 +39,8 @@ void ScalarConverter::printResult(const ConvertedData& data) {
 		std::cout << "float: " << data.f << "f\n";
 
 	if (data.d - static_cast<int>(data.d) == 0.0 && !data.isIntImpossible)
+		std::cout << "double: " << data.d << ".0\n";
+	else
 		std::cout << "double: " << data.d << "\n";
 }
 
